@@ -7,12 +7,6 @@ router.get("/", (req, res) => {
 });
   
 
-// router.get("/")
-
-//     fs.writeFile("./db.json", JSON.stringify(allNotes), (err) => {
-//         if (err) return res.JSON({ msg: "problem adding"});
-//         res.JSON ({ msg: "successfully added"});
-//     });
 
 
 
