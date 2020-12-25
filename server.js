@@ -13,5 +13,3 @@ app.use('/api', apiRoutes);
 
 //listening server
 app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`))
-
-
