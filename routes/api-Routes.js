@@ -17,7 +17,7 @@ router.get("/notes", (req, res) => {
 fs.writeFile("db.json", "utf8", (err, data) => {
     if (err) throw err;
     console.log("File written")
-});
+    });
 });
 
 router.post("/notes", (req, res) => {
